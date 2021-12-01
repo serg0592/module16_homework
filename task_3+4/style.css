@@ -1,0 +1,51 @@
+.select {
+    background-color: aqua;
+}
+
+.body-request__select, .body-request__button, .body-request__message {
+    display: inline-block;
+}
+
+.body-answer__year, .body-answer__quarter-1, .body-answer__quarter-2,
+.body-answer__quarter-3, .body-answer__quarter-4, .body-answer__sales-1,
+.body-answer__sales-2, .body-answer__sales-3, .body-answer__sales-4 {
+    border: solid 1px black;
+}
+
+.body-answer__year, .body-answer__quarter, .body-answer__sales {
+    visibility: hidden;
+}
+
+.body-answer__year {
+    width: 203px;
+    height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -1px;
+}
+
+.body-answer__quarter-1, .body-answer__quarter-2,
+.body-answer__quarter-3, .body-answer__quarter-4 {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin-right: -5px;
+    margin-bottom: -1px;
+    padding: 0px;
+} 
+
+.body-answer__sales-1, .body-answer__sales-2, 
+.body-answer__sales-3, .body-answer__sales-4 {
+    display: inline-block;
+    width: 50px;
+    height: 20px;    
+    text-align: center;
+    margin-right: -5px;
+    padding: 0px;
+}
+
+.body-answer__link {
+    visibility: hidden;
+    margin: 20px;
+}
